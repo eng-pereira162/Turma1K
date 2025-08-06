@@ -1,15 +1,40 @@
 body {
     background-color: rgb(255, 224, 158);
-
 }
 .kenzo {
     color: rgb(255, 0, 0);
     background-color: black;
-
 }
 
 .dogao {
     color: brown;
     background-color: pink;
+}
 
+img {
+    width: 200px;
+}
+
+.mabel{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.videos {
+   
+    background-color: antiquewhite;
+    padding: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+.mabel img {
+    opacity: 0.5;
+}
+
+.mabel img:hover {
+    opacity: 1;
+    border: solid 5px rgb(255, 0, 247);
 }
